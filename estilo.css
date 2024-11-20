@@ -1,0 +1,44 @@
+:root{
+    --cor-principal: #250404 ;
+    --cor-secundaria: #212333; 
+    --cor-destaque: #db674b;
+    --cor-texto: #f22626;
+    --cor-hover:#87311a;
+
+}
+
+body {
+background: rgb(22,58,80);
+background: linear-gradient(173deg, rgba(22,58,80,1) 0%, rgba(11,20,27,1) 87%);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    color: var(--cor-destaque);
+}
+
+button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: var(--cor-hover);
+    color: var(--cor-principal);
+}
